@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .body{
+        background-color: blue;
+        font-family: sans-serif;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 10px;
+         }
+         .main .grid{
+            grid-column: span 6;
+         }
+         .image img{
+            width: 100%;
+            grid-column: span 4;
+            object-fit: cover;
+         }
+         .header .title{
+            grid-column: span 6;
+         }
+         .article{
+            grid-column: span 6;
+         }
+</style>
+<body>
+    <div class="header grid">
+        <div class="title">
+        <h1>A1 Restaurant</h1>
+        <div class="menu">
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Home</a>
+        </div>
+</div>
+    </div>
+
+    <div class="main Grid">
+        <div class="image">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="">
+        <h2>About us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro in est similique dolores omnis dolorum esse ipsam illo! Sint fugiat ad in cumque distinctio alias asperiores eveniet aut nesciunt tempora?
+        </p>
+    </div>
+    </div>
+    <div class="article">
+        <h2>How we Started</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ea quos corporis itaque? Iure tempora temporibus nihil voluptatibus error molestiae, eligendi nulla libero, perspiciatis nisi incidunt! Fugit quas ipsum eveniet dolores aliquid placeat neque incidunt non ratione fuga? Explicabo inventore odio magnam quae deleniti similique dicta soluta perspiciatis tenetur eligendi!</p>
+    </div>
+</body>
+</html>

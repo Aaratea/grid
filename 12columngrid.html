@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.body{
+    background-color: beige;
+    font-family:'Poppin' serif;
+}
+.grid{
+   display: grid;
+   grid-template-columns:repeat(12, 1fr) ; 
+   gap: 10px;
+}
+.main .grid{
+    background-color: rgb(182, 184, 186);
+}
+.header .title{
+    grid-column: span 6;
+}
+.info{
+    grid-column: span 6;
+}
+.article{
+    grid-column: span 6;
+}
+.main .img{
+    grid-column: span 6;
+}
+.picture img{
+width: 100%;
+object-fit: cover;
+}
+.grid{
+    grid-column: span 4;
+}
+.header .menu{
+    grid-column: span 6;
+}
+</style>
+<body>
+    <div class="header grid">
+        <div class="title">
+            <h1>Sample1</h1>
+            <div class="menu">
+                <a href>Home</a>
+                <a href>About</a>
+                <a href>Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main grid">
+        <div class="Picture">
+            <img src="https://plus.unsplash.com/premium_photo-1665675241752-45e353a8118c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
+        </div>
+    </div>
+
+    <div class="info">
+        <h2>Sample1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci provident magnam vero doloribus temporibus quam, neque rem consequatur, quasi maiores esse iusto blanditiis dolore itaque minima, explicabo et veniam laudantium aliquid dicta reprehenderit dolor in praesentium ea. Velit, voluptas, assumenda excepturi soluta accusantium consequatur amet debitis officiis, voluptatibus cumque beatae?</p>
+    </div>
+    <div class="article">
+        <h2>Sample2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis et eligendi sit, explicabo laudantium laboriosam error, similique tempora suscipit quis rem atque nobis molestiae eius delectus! Dolor deserunt voluptatibus asperiores ipsam delectus odit nihil labore tempore, eos quia nostrum. Quibusdam exercitationem voluptatum officia excepturi repudiandae, cum sequi nemo non?</p>
+    </div> 
+    <div class="article">
+        <h2>Sample3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis et eligendi sit, explicabo laudantium laboriosam error, similique tempora suscipit quis rem atque nobis molestiae eius delectus! Dolor deserunt voluptatibus asperiores ipsam delectus odit nihil labore tempore, eos quia nostrum. Quibusdam exercitationem voluptatum officia excepturi repudiandae, cum sequi nemo non?</p>
+    </div> 
+    <div class="article">
+        <h2>Sample4</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis et eligendi sit, explicabo laudantium laboriosam error, similique tempora suscipit quis rem atque nobis molestiae eius delectus! Dolor deserunt voluptatibus asperiores ipsam delectus odit nihil labore tempore, eos quia nostrum. Quibusdam exercitationem voluptatum officia excepturi repudiandae, cum sequi nemo non?</p>
+    </div>
+</body>
+</html>

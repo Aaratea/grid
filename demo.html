@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skillz</title>
+    <link rel="icons" href="images/skill.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+.grid{
+grid-template-columns: repeat( 6, 1fr);
+gap: 10px;
+}
+.hearder .grid{
+    display: grid;
+    grid-column: span 6;
+    gap: 10px;
+}
+.img {
+background-color:rgb(47, 47, 184)
+grid-column: span 4;
+}
+.title{
+    background-color:navy;
+    size: 100px;
+    color:azure
+}
+.showcase{
+    display: grid;
+    grid-template-columns: 1.5fr  1fr;
+    height: 320px;
+    background-color: var(--main-color);
+    color: white;
+    padding: 25px 20px;
+}
+.features{
+    margin-top: 25px;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    text-align:inherit;
+}
+.courses{
+    margin-top:  25px; 
+    padding:50px 20px ;
+    display: grid;
+    grid-template-columns: ;
+}
+    </style>
+</head>
+<body>
+    <div class="header grid">
+        <div class="menu">
+            <a href="">Log in</a>
+            <a href="">Check courses</a>
+            <div class="title">
+                <h1>Skillz</h1>
+
+                <div class="img">
+                    <img src="https://images.unsplash.com/photo-1664575197593-2e7085ef086b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="article">
+    <h2>Learn Any Digital skill of your choice today</h2>
+    <h3>Over 3000 Students currently learn with us</h3>
+</div>
+<form action="">
+    <input type="text" placeholder="your email address">
+    <button>Start Learning</button>
+<h3>Try Out Our Free courses. No risk, No Credit card required</h3>
+</form>
+<div class="features">
+    <div class="course">
+        <i class="fa-thin fa-folders"></i> 
+        <h2>Over 300 courses</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam optio praesentium quos impedit eaque quis earum, harum deserunt ab aspernatur natus sit soluta atque blanditiis error saepe nulla repellat tempore cum animi, itaque numquam dolores cupiditate? Veniam delectus iure, doloremque quam sint velit neque, optio tempore vitae ducimus reprehenderit, dolorem recusandae minus maiores dignissimos exercitationem. Totam iste fugiat placeat harum quisquam quae aperiam dolores aliquid ratione, explicabo vitae officiis incidunt dolor pariatur repellendus possimus, autem nesciunt qui accusantium voluptas, quam unde accusamus voluptate? Corrupti hic, quidem et ad provident perferendis incidunt debitis nostrum laboriosam repellendus enim, dolore nesciunt ipsa magni?</p>
+    </div>
+    
+    
+    <div class="course">
+        <i class="fa-thin fa-graduation-cap"></i>
+        <h2>Free Certification</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo optio est molestiae beatae consequatur placeat dolorum esse dolores velit, quam repellat aut quis cum harum accusantium facilis iste nam fugit!</p>
+
+    </div>
+       
+</div>
+</body>
+</html>
